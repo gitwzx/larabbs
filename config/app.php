@@ -174,7 +174,8 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
-
+        // config/app.php  'providers'=>  [  ... Sven\ArtisanView\ServiceProvider::class,  ];
+        Sven\ArtisanView\ServiceProvider::class,
     ],
 
     /*
